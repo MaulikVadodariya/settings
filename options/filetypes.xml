@@ -1,0 +1,22 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="linkedin" type="PHP" />
+      <mapping pattern="gitignore" type="PLAIN_TEXT" />
+      <mapping pattern="templates" type="PLAIN_TEXT" />
+      <mapping pattern=".env.testing" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="reset_password" type="PLAIN_TEXT" />
+      <mapping pattern=".gitognore" type="PLAIN_TEXT" />
+      <mapping pattern="trial_popup,js" type="PLAIN_TEXT" />
+      <mapping pattern="questions" type="PLAIN_TEXT" />
+      <mapping pattern="assets/" type="PLAIN_TEXT" />
+      <mapping pattern="toggle-switch" type="PLAIN_TEXT" />
+      <mapping pattern="env" type="PLAIN_TEXT" />
+      <mapping ext="pnh" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="xd" type="PLAIN_TEXT" />
+      <mapping ext="sqlite" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

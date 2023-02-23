@@ -1,0 +1,12 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="PHP">
+        <added pattern="\Illuminate\Contracts\Container\Container.bind(abstract,concrete,shared)" />
+        <added pattern="\Illuminate\Support\Facades\App.make(abstract)" />
+        <removed pattern="" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

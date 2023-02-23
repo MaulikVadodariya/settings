@@ -1,0 +1,85 @@
+<templateSet group="user">
+  <template name="de" value="echo &quot;Here&quot;;die;" shortcut="SPACE" description="Die Statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ta" value="{{ Form::textarea('description') }}" shortcut="SPACE" description="text area" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="txt" value="{{ Form::text('name',['']) }}" description="text input" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="frm" value="{!! Form::open([    &#10;    'route' =&gt; '',&#10;    'method' =&gt; '',&#10;     'files' =&gt; true, &#10;]) !!}" description="Make  form" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="lbl" value="{!! Form::label('title', '') !!}&#10;" description="Add Label" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="chk" value="{{ Form::checkbox('name', 'value', true) }}&#10;" description="Add Checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rd" value="{{ Form::radio('name', 'value', true) }}&#10;&#10;" description="Add Radio button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="slt" value="{{ Form::select('name', ['key' =&gt; 'value', 'key1' =&gt; 'value1'],'',['placeholder' =&gt; 'show', 'class' =&gt; '']) }}&#10;" description="Add Dropdown" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="public function hello()&#10;{&#10;    &#10;}" description="Add Demo Function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="msg" value="\Session::flash('message','');&#10;\Session::flash('alert-class','');" description="Add Custom flash message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="@if()&#10;&#10;@else&#10;&#10;@endif" description="If Else" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="aj" value="$.ajax({&#10;    type:'POST',&#10;    url:'',&#10;    data:'',&#10;    headers:{&#10;    &#9;'X-CSRF-TOKEN': '{{ csrf_token() }}'&#10;    },&#10;    success:function(data){&#10;    &#9;&#10;    }&#10;});" description="TO Add Ajax Call" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="clk" value="$(document).on('click','#id',function() {&#10; &#10;});" description="On click script" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="al" value="alert();" description="Alert script popup and return false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rf" value="return false;" description="Return false" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log(val);" description="Console.log()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

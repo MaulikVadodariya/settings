@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="print_r">
+      <typing text-keycode="69:0;67:0;72:0;79:0;32:0;222:1;44:1;80:0;82:0;69:0;46:1">echo&amp;#x20;&quot;&lt;pre&gt;</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="59:0">;</typing>
+      <action id="SaveAll" />
+      <action id="EditorEnter" />
+      <typing text-keycode="80:0;82:0;73:0;78:0;84:0;45:1;82:0;57:1;48:1;59:0">print_r();</typing>
+      <action id="SaveAll" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorPaste" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorEnter" />
+      <typing text-keycode="68:0;73:0;69:0;59:0">die;</typing>
+      <action id="SaveAll" />
+      <action id="SaveAll" />
+    </macro>
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="Macro.Var_Dump" />
+      <action id="Macro.dump" />
+      <action id="EditorActions">
+        <abbreviation name="var dump" />
+      </action>
+      <action id="Macro.final" />
+    </abbreviations>
+  </component>
+</application>
